@@ -1,9 +1,13 @@
+<<<<<<< HEAD
 # DoAn_Web2
 
 Donate? Muốn hỗ trợ mình 1 ly cafe <3 [Donate here](https://github.com/HoangTran0410/HoangTran0410/blob/main/DONATE.md)
 
 ## Demo
 [Youtube Video](https://www.youtube.com/watch?v=GlSDvBLYsOc&t)
+=======
+# Thoi_trang_tre_em
+>>>>>>> 8f3f95d1dc1ba38426a4bf1e5507569fc1a65ee2
 
 ## Các bước cài đặt:
 
