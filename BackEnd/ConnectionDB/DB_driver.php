@@ -12,7 +12,7 @@ class DB_driver
 //         $pass = "a2b7bcff";
   
   public $__conn,
-        $host = "localhost",
+        $host = "127.0.0.1:3307",
         $DbName = "web2",
         $user = "root",
         $pass = "";

@@ -3,7 +3,7 @@ window.onload = function() {
     khoiTao();
 
     // thêm tags (từ khóa) vào khung tìm kiếm
-    var tags = ["Samsung", "iPhone", "Huawei", "Oppo", "Mobi"];
+    var tags = ["Dior", "Gucci", "D&G", "Chanel"];
     for (var t of tags) addTags(t, "index.php?search=" + t)
 
     var listGioHang = getListGioHang();

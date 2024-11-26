@@ -35,7 +35,7 @@ function addHeader()
         <div style="display: none;" class="smallmenu" id="closemenu" onclick="smallmenu(0)">×</div>
         <div class="logo">
             <a href="index.php">
-                <img src="img/logo.jpg" alt="Trang chủ Smartphone Store" title="Trang chủ Smartphone Store">
+                <img src="img/logo.jpg" alt="Trang chủ Kid Store" title="Trang chủ Kid Store">
             </a>
         </div> <!-- End Logo -->
 
@@ -164,7 +164,7 @@ function addChiTietSanPham()
 {
     echo '
     <div class="chitietSanpham" style="min-height: 85vh">
-        <h1>Điện thoại </h1>
+        <h1>  </h1>
         <div class="rowdetail group">
             <div class="picture">
                 <img src="">
@@ -173,7 +173,7 @@ function addChiTietSanPham()
                 <div class="area_price"> </div>
                 <div class="ship" style="display: none;">
                     <i class="fa fa-clock-o"></i>
-                    <div>NHẬN HÀNG TRONG 1 GIỜ</div>
+                    <div>NHẬN HÀNG TRONG 1 NGÀY</div>
                 </div>
                 <div class="area_promo">
                     <strong>khuyến mãi</strong>
@@ -185,15 +185,15 @@ function addChiTietSanPham()
                 <div class="policy">
                     <div>
                         <i class="fa fa-archive"></i>
-                        <p>Trong hộp có: Sạc, Tai nghe, Sách hướng dẫn, Cây lấy sim, Ốp lưng </p>
+                        <p>Khách hàng được tặng thêm 1 chiếc kẹp tóc xinh xắn </p>
                     </div>
                     <div>
                         <i class="fa fa-star"></i>
-                        <p>Bảo hành chính hãng 12 tháng.</p>
+                        <p>Hạn chế giặt máy.</p>
                     </div>
                     <div class="last">
                         <i class="fa fa-retweet"></i>
-                        <p>1 đổi 1 trong 1 tháng nếu lỗi, đổi sản phẩm tại nhà trong 1 ngày.</p>
+                        <p>1 đổi 1 trong vòng 1 tuần nếu sản phẩm lỗi</p>
                     </div>
                 </div>
                 <div class="area_order">
@@ -204,7 +204,7 @@ function addChiTietSanPham()
                 </div>
             </div>
             <div class="info_product">
-                <h2>Thông số kỹ thuật</h2>
+                <h2>Chi tiết sản phẩm</h2>
                 <ul class="info">
 
                 </ul>
@@ -315,7 +315,7 @@ function addContainTaiKhoan()
                         <div class="top-row">
                             <div class="field-wrap">
                                 <label>
-                                    Điện thoại<span class="req">*</span>
+                                     <span class="req">*</span>
                                 </label>
                                 <input name="sdt" id="sdt" type="text" pattern="\d*" minlength="10" maxlength="12" required autocomplete="off" />
                             </div> <!-- /sdt -->
@@ -360,11 +360,10 @@ function addPlc()
     <div class="plc">
         <section>
             <ul class="flexContain">
-                <li>Giao hàng hỏa tốc trong 1 giờ</li>
+                <li>Giao hàng hỏa tốc trong 1 ngày</li>
                 <li>Thanh toán linh hoạt: tiền mặt, visa / master, trả góp</li>
-                <li>Trải nghiệm sản phẩm tại nhà</li>
                 <li>Lỗi đổi tại nhà trong 1 ngày</li>
-                <li>Hỗ trợ suốt thời gian sử dụng.
+                <li>Hỗ trợ nếu sản phẩm lỗi.
                     <br>Hotline:
                     <a href="tel:12345678" style="color: #288ad6;">1234.5678</a>
                 </li>

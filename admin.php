@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>Admin - Thế giới điện thoại</title>
+    <title>Admin - Thời trang trẻ em </title>
     <link rel="shortcut icon" href="img/favicon.ico" />
 
     <!-- Load font awesome icons -->
@@ -33,7 +33,7 @@
 
 <body>
     <header>
-        <h2>SmartPhone Store - Admin</h2>
+        <h2>Kid Store - Admin</h2>
     </header>
 
     <!-- Menu -->
@@ -216,42 +216,14 @@
                             <td><input id="giatrikm" type="text"></td>
                         </tr>
                         <tr>
-                            <th colspan="2">Thông số kĩ thuật</th>
+                            <th colspan="2">Chi tiết sản phẩm </th>
                         </tr>
                         <tr>
-                            <td>Màn hình:</td>
+                            <td>Màu Sắc </td>
                             <td><input type="text"></td>
                         </tr>
                         <tr>
-                            <td>Hệ điều hành:</td>
-                            <td><input type="text"></td>
-                        </tr>
-                        <tr>
-                            <td>Camara sau:</td>
-                            <td><input type="text"></td>
-                        </tr>
-                        <tr>
-                            <td>Camara trước:</td>
-                            <td><input type="text"></td>
-                        </tr>
-                        <tr>
-                            <td>CPU:</td>
-                            <td><input type="text"></td>
-                        </tr>
-                        <tr>
-                            <td>RAM:</td>
-                            <td><input type="text"></td>
-                        </tr>
-                        <tr>
-                            <td>Bộ nhớ trong:</td>
-                            <td><input type="text"></td>
-                        </tr>
-                        <tr>
-                            <td>Thẻ nhớ:</td>
-                            <td><input type="text"></td>
-                        </tr>
-                        <tr>
-                            <td>Dung lượng Pin:</td>
+                            <td>Size:</td>
                             <td><input type="text"></td>
                         </tr>
                         <tr>

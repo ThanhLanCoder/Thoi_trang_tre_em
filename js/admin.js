@@ -54,7 +54,7 @@ function addThongKe() {
     var dataChart = {
         type: 'bar',
         data: {
-            labels: ["Apple", "Samsung", "Xiaomi", "Vivo", "Oppo", "Mobiistar"],
+            labels: ["Dior", "Gucci", "D&G", "Chanel"],
             datasets: [{
                 label: 'Số lượng bán ra',
                 data: [12, 19, 10, 5, 20, 5],
@@ -340,19 +340,12 @@ function layThongTinSanPhamTuTable(id) {
             "value": promoValue
         },
         "detail": {
-            "screen": screen,
-            "os": os,
-            "camara": camara,
-            "camaraFront": camaraFront,
-            "cpu": cpu,
-            "ram": ram,
-            "rom": rom,
-            "microUSB": microUSB,
-            "battery": battery
-        },
+            "color": color,
+            "size": size,
+            
         "masp": masp,
         "TrangThai": 1
-    };
+    },
 }
 
 function themSanPham() {
@@ -615,7 +608,6 @@ function addKhungSuaSanPham(masp) {
                             s += (`<option selected="selected" value="` + i++ + `">Không</option>`);
                             s += (`<option value="` + i++ + `">Giảm giá</option>`);
                             s += (`<option value="` + i++ + `">Giá rẻ online</option>`);
-                            s += (`<option value="` + i++ + `">Trả góp</option>`);
                             s += (`<option value="` + i++ + `">Mới ra mắt</option>`);
                         s+=`</script>
                     </select>
@@ -626,43 +618,15 @@ function addKhungSuaSanPham(masp) {
                 <td><input id="giatrikm" type="text" value="0"></td>
             </tr>
             <tr>
-                <th colspan="2">Thông số kĩ thuật</th>
+                <th colspan="2">Chi tiết sản phẩm </th>
             </tr>
             <tr>
-                <td>Màn hình:</td>
-                <td><input type="text" value="` + sp.ManHinh + `"></td>
+                <td>Màu Sắc:</td>
+                <td><input type="text" value="` + sp.MauSac + `"></td>
             </tr>
             <tr>
-                <td>Hệ điều hành:</td>
-                <td><input type="text" value="` + sp.HDH + `"></td>
-            </tr>
-            <tr>
-                <td>Camara sau:</td>
-                <td><input type="text" value="` + sp.CamSau + `"></td>
-            </tr>
-            <tr>
-                <td>Camara trước:</td>
-                <td><input type="text" value="` + sp.CamTruoc + `"></td>
-            </tr>
-            <tr>
-                <td>CPU:</td>
-                <td><input type="text" value="` + sp.CPU + `"></td>
-            </tr>
-            <tr>
-                <td>RAM:</td>
-                <td><input type="text" value="` + sp.Ram + `"></td>
-            </tr>
-            <tr>
-                <td>Bộ nhớ trong:</td>
-                <td><input type="text" value="` + sp.Rom + `"></td>
-            </tr>
-            <tr>
-                <td>Thẻ nhớ:</td>
-                <td><input type="text" value="` + sp.SDCard + `"></td>
-            </tr>
-            <tr>
-                <td>Dung lượng Pin:</td>
-                <td><input type="text" value="` + sp.Pin + `"></td>
+                <td>Size:</td>
+                <td><input type="text" value="` + sp.Size + `"></td>
             </tr>
             <tr>
                 <td colspan="2"  class="table-footer"> <button name="submit">SỬA</button> </td>

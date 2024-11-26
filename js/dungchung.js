@@ -673,32 +673,11 @@ function getThongTinSanPhamFrom_TheGioiDiDong() {
 					var giatri = li.getElementsByTagName('div')[0].innerText;
 	
 					switch (loai) {
-						case "Màn hình:":
-							result.detail.screen = giatri.replace('"', "'");
+						case "Màu Sắc:":
+							result.detail.color = giatri.replace('"', "'");
 							break;
-						case "Hệ điều hành:":
-							result.detail.os = giatri;
-							break;
-						case "Camera sau:":
-							result.detail.camara = giatri;
-							break;
-						case "Camera trước:":
-							result.detail.camaraFront = giatri;
-							break;
-						case "CPU:":
-							result.detail.cpu = giatri;
-							break;
-						case "RAM:":
-							result.detail.ram = giatri;
-							break;
-						case "Bộ nhớ trong:":
-							result.detail.rom = giatri;
-							break;
-						case "Thẻ nhớ:":
-							result.detail.microUSB = giatri;
-							break;
-						case "Dung lượng pin:":
-							result.detail.battery = giatri;
+						case "Size :":
+							result.detail.Size = giatri;
 							break;
 					}
 				}

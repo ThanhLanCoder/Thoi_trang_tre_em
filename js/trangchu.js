@@ -11,14 +11,14 @@ window.onload = function() {
     // autocomplete(document.getElementById('search-box'), list_products);
 
     // thêm tags (từ khóa) vào khung tìm kiếm
-    var tags = ["Samsung", "iPhone", "Coolpad", "Oppo", "Mobi"];
+    var tags = ["Dior", "Gucci", "D&G", "Chanel"];
     for (var t of tags) addTags(t, "index.php?search=" + t);
 
     // =================== web 2 tìm nâng cao ================
     // Thêm hình vào banner
     setupBanner();
 
-    // Thêm danh sách hãng điện thoại
+    // Thêm danh sách hãng 
     setupCompany();
 
     // slider chọn khoảng giá
@@ -98,7 +98,6 @@ function hienThiKhungSanPhamMacDinh() {
     // Thêm các khung sản phẩm
     addKhungSanPham('NỔI BẬT NHẤT', yellow_red, ['star=0', 'sort=SoDanhGia-desc', 'page=0'], soLuong);
     addKhungSanPham('SẢN PHẨM MỚI', blue, ['promo=moiramat', 'sort=SoDanhGia-desc', 'page=0'], soLuong);
-    addKhungSanPham('TRẢ GÓP 0%', yellow_red, ['promo=tragop', 'page=0'], soLuong);
     addKhungSanPham('GIÁ SỐC ONLINE', green, ['promo=giareonline', 'page=0'], soLuong);
     addKhungSanPham('GIẢM GIÁ LỚN', yellow_red, ['promo=giamgia', 'page=0'], soLuong);
     addKhungSanPham('GIÁ RẺ CHO MỌI NHÀ', green, ['price=0-3000000', 'sort=DonGia-asc', 'page=0'], soLuong);
